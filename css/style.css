@@ -8,7 +8,6 @@ body{
     width: 100%;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
 }
 
 .flex-container{
@@ -57,6 +56,39 @@ main .container{
 
 footer{
     height: 15vh;
-    background-color: blue;
+    background-color: #222222;
+    justify-content: space-between;
+}
+
+footer .icon-footer{
+    height: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+}
+
+footer .icon-footer i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer .icon-footer i, p{
+    width: 100%;
+}
+
+
+footer .icon-footer #arrow{
+    font-size: 15px;
+}
+
+footer .text-center #share{
+    color: #4bc800;
+}
+
+footer .text-right{
+    height: 100%;
+    background-color: #4a4a4a;
+    color: #b92600;
+    padding: 0 20px;
 }
 

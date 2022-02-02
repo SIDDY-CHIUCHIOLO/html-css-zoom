@@ -16,21 +16,12 @@ body{
 
 header{
     height: 5vh;
-    background-color: red;
+    background-color: black;
     justify-content: end;
 }
 
-header .speaker-view{
-    width: 200px;
-    height: 100%;
-    background-color: yellow;
-    margin-right: 10px;
-}
-
 header .zoom-icon{
-    width: 50px;
-    height: 100%;
-    background-color: blue;
+    margin:0 10px;
 }
 
 header div a{

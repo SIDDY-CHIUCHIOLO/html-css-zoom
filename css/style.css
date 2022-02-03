@@ -10,6 +10,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .flex-container{
     display: flex;
 }
@@ -36,6 +40,7 @@ header div a{
 main{
     height:80vh;
     background-color: black;
+    padding: 20px 0;
 }
 
 main .container{
@@ -43,6 +48,24 @@ main .container{
     width: 80%;
     height: 100%;
     background-color: grey;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+main .container div{
+    border: green solid 2px;
+    width: calc(100% / 7);
+    background-color: red;
+    height: calc(100% / 5);
+    align-items: flex-end;
+    background-image: url(../img/montagne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main span{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer{
